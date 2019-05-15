@@ -85,4 +85,4 @@ bot.on("message", message => {
       
 //kırmızı renk kodu 0xff1a1a
 //yeşil renk kodu 0x00cc44   
-bot.login(ayarlar.token);
+bot.login(process.env.BOT_TOKEN);
